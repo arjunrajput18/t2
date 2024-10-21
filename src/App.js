@@ -1,7 +1,13 @@
-import React from 'react'
+import { Home } from "./Pages/Home";
+import { Routes, Route } from 'react-router-dom'
+import { Projects } from "./Pages/Projects";
 
-export default function App() {
+function App() {
   return (
-    <div>R1</div>
-  )
+    <div style={{ fontFamily: "Montserrat" }}>
+   <h1>hi</h1>
+    </div>
+  );
 }
+
+export default App;
