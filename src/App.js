@@ -5,7 +5,10 @@ import { Projects } from "./Pages/Projects";
 function App() {
   return (
     <div style={{ fontFamily: "Montserrat" }}>
-   <h1>hi</h1>
+       <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </div>
   );
 }
